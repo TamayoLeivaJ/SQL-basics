@@ -1,6 +1,7 @@
 # SQL-basics
 
-## Subqueries (SELECT within SELECT)
+## Excercises
+### Tables
 
 world table 
 
@@ -13,4 +14,14 @@ world table
 | Angola      | Africa    | 1246700 | 20609294   | 100990000000 |
 | ..          | ...       | ...     | ...        | ...          |
 
+### Subqueries (SELECT within SELECT)
+
+Table: world(name, continent, area, population, gdp)
+
 [subqueries Excersise](https://sqlzoo.net/wiki/SELECT_within_SELECT_Tutorial)
+
+### Aggregate functions (SUM & COUNT)
+
+Table: world(name, continent, area, population, gdp)
+
+[Aggregate functions (SUM & COUNT) Excersise](https://sqlzoo.net/wiki/SUM_and_COUNT)
