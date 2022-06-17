@@ -72,9 +72,13 @@ Table: world(name, continent, area, population, gdp)
 
 [Aggregate functions (SUM & COUNT) Excersise](https://sqlzoo.net/wiki/SUM_and_COUNT)
 
+[Aggregate functions (SUM & COUNT) Answer](https://github.com/TamayoLeivaJ/SQL-basics/blob/gh-pages/Queries/SQL_Aggregate_Functions.sql)
+
 
 ### 3) Subqueries (SELECT within SELECT)
 
 Table: world(name, continent, area, population, gdp)
 
 [subqueries Excersise](https://sqlzoo.net/wiki/SELECT_within_SELECT_Tutorial)
+
+[Subqueries Answer](https://github.com/TamayoLeivaJ/SQL-basics/blob/gh-pages/Queries/SQL_Subqueries.sql)
