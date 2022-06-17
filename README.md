@@ -1,5 +1,7 @@
 # SQL-basics
 
+Here you will find information about SQL, SQL clauses and aggregate functions, along with coding exercises and their answers, that will help you if you are learning SQL.
+
 ## SQL Clauses
 
 SQL Clauses and their sequences 
@@ -30,15 +32,16 @@ WHERE Clause Operators
 | IS NULL     | Is a NULL value              |
 | IS NOT NULL | Is not a NULL value          |
 
+
 ## SQL Aggregate Functions 
 
-| Function | Description                                                            | DBMS |
-|----------|------------------------------------------------------------------------|------|
-| AVG()    | Return a column's average value                                        | All  |
-| COUNT()  | Return the number of rows in a columns.  COUNT(*) count also NULL rows | All  |
-| MAX()    | Return a column's highest value                                        | All  |
-| MIN()    | Return a column's lowest value                                         | All  |
-| SUM()    | Return a the sum of a column's value                                   | All  |
+| Function | Description                                                            | DBMSs |
+|----------|------------------------------------------------------------------------|-------|
+| AVG()    | Return a column's average value                                        | All   |
+| COUNT()  | Return the number of rows in a columns.  COUNT(*) count also NULL rows | All   |
+| MAX()    | Return a column's highest value                                        | All   |
+| MIN()    | Return a column's lowest value                                         | All   |
+| SUM()    | Return a the sum of a column's value                                   | All   |
 
 
 ## Excercises
