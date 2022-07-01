@@ -14,7 +14,7 @@ SQL Clauses and their sequences
 | 4     | GROUP BY | Group specification                |
 | 5     | HAVING   | Group-level filtering              |
 | 6     | ORDER BY | Output sort order                  |
-
+<br>
 
 ## SQL WHERE Clause Operators
 
@@ -35,18 +35,18 @@ WHERE Clause Operators
 | ANY         | TRUE if ANY of the subquery values meet the condition |
 | ALL         | TRUE if ALL of the subquery values meet the condition |
 | EXISTS      | TRUE if the subquery returns one or more records      |
-
+<br>
 
 ## SQL Statement
 
-| Statement | Description | Example |
-|---|---|---|
+| Statement | Description |
+|---|---|
 | DISTINCT | Return only distinct values in a column |
-| AS | Create an alias (for the duration of<br> that query) for a table or column |
-| CASE | The CASE statement check through <br>conditions and returns an assigned <br>value when the first condition is <br>met (CASE WHEN). If none of the <br>conditions are met, it returns the <br>value in the ELSE clause |
+| AS | Create an alias (for the duration of that query) <br>for a table or column. |
+| CASE | The CASE statement check through conditions and <br>returns an assigned value when the first condition <br>is met (CASE WHEN). If none of the conditions are <br>met, it returns the value in the ELSE clause. |
+<br>
 
-
-Examples Statement
+Examples Statement<br>
 **Code** <br>
 ```SQL
 --- DISTINCT Statement
@@ -66,7 +66,7 @@ CASE
 END AS discrete_quantity
 FROM Table;
 ```
-
+<br>
 
 ## SQL Aggregate Functions 
 
@@ -77,6 +77,7 @@ FROM Table;
 | MAX()    | Return a column's highest value                                        | All   |
 | MIN()    | Return a column's lowest value                                         | All   |
 | SUM()    | Return a the sum of a column's value                                   | All   |
+<br>
 
 ## Excercises
 ### Tables
@@ -90,6 +91,7 @@ nobel table
 | 1960 | Medicine   | Sir Frank Macfarlane Burnet |
 | 1960 | Medicine   | Peter Madawar               |
 | ...  | ...        | ...                         |
+<br>
 
 world table 
 
@@ -101,7 +103,7 @@ world table
 | Andorra     | Europe    | 468     | 78115      | 3712000000   |
 | Angola      | Africa    | 1246700 | 20609294   | 100990000000 |
 | ..          | ...       | ...     | ...        | ...          |
-
+<br>
 
 ### 2) Aggregate functions (SUM & COUNT)
 
