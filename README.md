@@ -41,20 +41,30 @@ WHERE Clause Operators
 
 | Statement | Description | Example |
 |---|---|---|
-| DISTINCT | Return only distinct values in a <br>column | SELECT DISTINCT column <br>FROM table |
-| AS | Create an alias (for the duration of<br> that query) for a table or column  | SELECT column AS column2 <br>FROM table; |
-| CASE | The CASE statement check through <br>conditions and returns an assigned <br>value when the first condition is <br>met (CASE WHEN). If none of the <br>conditions are met, it returns the <br>value in the ELSE clause | SELECT column, value<br>CASE WHEN value >= THEN 1<br>ELSE 0<br>END AS binary<br>FROM table; |
+| DISTINCT | Return only distinct values in a column |
+| AS | Create an alias (for the duration of<br> that query) for a table or column |
+| CASE | The CASE statement check through <br>conditions and returns an assigned <br>value when the first condition is <br>met (CASE WHEN). If none of the <br>conditions are met, it returns the <br>value in the ELSE clause |
 
 
+Examples Statement
 **Code** <br>
 ```SQL
+--- DISTINCT Statement
+SELECT DISTINCT column 
+FROM table;
+
+--- AS Statement
+SELECT column AS column2 
+FROM table;
+
+--- CASE Statement
 SELECT column, quantity
 CASE
     WHEN quantity > 10 THEN 'Above 10'
     WHEN quantity = 0 THEN 'Zero'
     ELSE 'Below 10'
 END AS discrete_quantity
-FROM Table
+FROM Table;
 ```
 
 
