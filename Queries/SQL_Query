@@ -1,0 +1,3 @@
+-- Count number of distinct id
+SELECT COUNT( DISTINCT id )
+FROM product
